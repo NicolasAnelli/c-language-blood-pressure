@@ -27,6 +27,16 @@ For Windows users, just double click on executable program.
 
 Considering that this system was developed in C, the use is around choosing options by typing a number of the option, then pressing Enter key to confirm.
 
+### Hidden menu options
+
+There are actually 2 options on main menu, but there are 3 hidden operations used to help on develop and check for code.
+
+- Option **f**: add some fake data for faster tests, this is very useful on pagination tests.
+- Option **d**: show the current state of global __history variable, useful to search for insert/update/delete operations.
+- Option **a**: trigger a auto-test function, which do unit checks, useful when manipulate core.h functions.
+
+Obs: to select these options, you can type then as choosed option on main menu screen.
+
 ## Some screens
 
 This is the main menu screen:
@@ -49,7 +59,7 @@ This is list blood pressure measures screen:
 ![Measure screens](./images/list_menu.png)
 
 
-## To do better
+## Todo's
 
 - [ ] Create file persistence layer
 - [ ] Allow remove records
