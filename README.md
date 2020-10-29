@@ -13,7 +13,7 @@ You can build this system in any linux-based system using gcc in root folder, as
 $ gcc main.c -o BloodPressure
 ```
 
-This will create a new executable in the project root path named BookSystem (or BookSystem.exe on windows). Now you only need to run it:
+This will create a new executable in the project root path named BloodPressure (or BloodPressure.exe on windows). Now you only need to run it:
 
 For Linux/MAC users:
 
@@ -63,7 +63,6 @@ This is list blood pressure measures screen:
 
 - [ ] Create file persistence layer
 - [ ] Allow remove records
-- [ ] Search books by author
 - [ ] Order by creation date on list screen
 
 
