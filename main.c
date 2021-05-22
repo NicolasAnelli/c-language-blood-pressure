@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
-#include "layout.h"
-#include "warning.h"
-#include "core.h"
+#include "libs/layout.h"
+#include "libs/warning.h"
+#include "libs/core.h"
 
 #define SYSTEM_NAME "Medical History - Blood Pressure"
 
@@ -271,8 +271,8 @@ void printMeasuresPage(int page, int per_page) {
 	}
 
 	emptyLine();
-	line("1 - Anterior | Proxima - 2", 'C');
-	line("0. Voltar", 'L');
+	line("1 - Previous | Next - 2", 'C');
+	line("0. Back", 'L');
 	emptyLine();
 	filledLine();
 
@@ -298,8 +298,8 @@ void triggerAutoTests() {
 	printf("3. Creating history\n");
 	printf("History* history = createHistory(); \n");
 	History* history = createHistory();
-	printf("history->measure: %x \n", (int)history->measure);
-	printf("history->next: %x \n", (int)history->next);
+	printf("history->measure: %ls \n", (int *) history->measure);
+	printf("history->next: %ls \n", (int *) history->next);
 	printf("countHistoryMeasures(history): %d \n\n", countHistoryMeasures(history));
 
 	printf("4. Print empty history\n");
@@ -345,12 +345,12 @@ void triggerAutoTests() {
 	printf("10. Find measure by position 2\n");
 	printf("Measure* m3 = findMeasureByPosition(history, 2); \n");
 	Measure* m3 = findMeasureByPosition(history, 2);
-	printf("m3: %x \n", (int)m3);
+	printf("m3: %ls \n", (int*) m3);
 
 
 	printf("\nAll tests working!\n");
 	printf("Type any to return: ");
-	char *opcao = (char*)malloc(sizeof(char));
+	char *opcao = (char*) malloc(sizeof(char));
 	scanf(" %[^\n]", opcao);
 }
 void addFakeData() {

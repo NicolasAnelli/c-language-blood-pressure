@@ -26,11 +26,11 @@ void filledLine() {
 	printf("\n");
 }
 void line(char *content, char align) {
-	int size = (int)malloc(sizeof(int));
-	int rest = (int)malloc(sizeof(int));
-	int writed = (int)malloc(sizeof(int));
-	int aux = (int)malloc(sizeof(int));
-	int i = (int)malloc(sizeof(int));
+	int size;
+	int rest;
+	int writed;
+	int aux;
+	int i;
 
 	size = strlen(content);
 	rest = WIDTH - 1;
