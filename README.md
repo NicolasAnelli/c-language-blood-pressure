@@ -46,17 +46,17 @@ This is the main menu screen:
 
 This is the add new blood pressure form menu:
 
-![Register new blood pressure]((./.github/images/add_menu.png)
+![Register new blood pressure](./.github/images/add_menu.png)
 
 
 Example of confirmation message:
 
-![Register new blood pressure with confirmation message]((./.github/images/add_menu_confirmation.png)
+![Register new blood pressure with confirmation message](./.github/images/add_menu_confirmation.png)
 
 
 This is list blood pressure measures screen:
 
-![Measure screens]((./.github/images/list_menu.png)
+![Measure screens](./.github/images/list_menu.png)
 
 
 ## Todo's
