@@ -41,22 +41,22 @@ Obs: to select these options, you can type then as choosed option on main menu s
 
 This is the main menu screen:
 
-![Main Menu](./images/main_menu.png)
+![Main Menu](./.github/images/main_menu.png)
 
 
 This is the add new blood pressure form menu:
 
-![Register new blood pressure](./images/add_menu.png)
+![Register new blood pressure]((./.github/images/add_menu.png)
 
 
 Example of confirmation message:
 
-![Register new blood pressure with confirmation message](./images/add_menu_confirmation.png)
+![Register new blood pressure with confirmation message]((./.github/images/add_menu_confirmation.png)
 
 
 This is list blood pressure measures screen:
 
-![Measure screens](./images/list_menu.png)
+![Measure screens]((./.github/images/list_menu.png)
 
 
 ## Todo's
